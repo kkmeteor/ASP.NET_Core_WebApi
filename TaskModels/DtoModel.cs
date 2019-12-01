@@ -6,7 +6,7 @@ using DependencyDll;
 
 namespace TaskModels
 {
-    [MetaDataWalker(DependencyAssemblyName = "DependencyDll")]
+    [MetaDataAttribute]
     public class DtoModel
     {
         public int Id { get; set; }
